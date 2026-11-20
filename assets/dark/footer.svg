@@ -1,0 +1,36 @@
+<svg viewBox="0 0 1000 112" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Current status">
+  <style>
+    :root { --bone:#E6E6E6;--rule:#3A3A3A;--muted:#9A9A9A;--dim:#707070;--accent:#D0D0D0;--ghost:#2A2A2A; }
+    
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .rise { opacity: 0; animation: rise .75s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .fade { opacity: 0; animation: fade .7s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .a1{animation-delay:.12s} .a2{animation-delay:.24s} .a3{animation-delay:.36s} .a4{animation-delay:.48s}
+    .a5{animation-delay:.6s} .a6{animation-delay:.72s} .a7{animation-delay:.84s} .a8{animation-delay:.96s}
+    .a9{animation-delay:1.08s} .a10{animation-delay:1.2s}
+    .axis { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 2.2s cubic-bezier(.6,0,.2,1) forwards; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .ring { animation: ring 2.6s ease-out infinite; }
+    @keyframes ring { 0%{transform:scale(.4);opacity:.8} 80%,100%{transform:scale(2.8);opacity:0} }
+    @media (prefers-reduced-motion: reduce) {
+      .draw,.rise,.fade,.axis,.pulse,.ring { animation: none; }
+      .draw,.axis { stroke-dashoffset: 0; }
+      .rise,.fade { opacity: 1; }
+      .ring { opacity: 0; }
+    }
+
+  </style>
+  
+  <line class="draw" x1="48" y1="24" x2="952" y2="24" stroke="var(--rule)" stroke-width="1"/>
+  <circle class="ring" cx="60" cy="68" r="5" stroke="var(--accent)" stroke-width="1" fill="none" style="transform-origin: 60px 68px"/>
+  <circle class="pulse" cx="60" cy="68" r="4" fill="var(--accent)"/>
+  <text class="mono" x="82" y="64" font-size="12" letter-spacing="2.4" fill="var(--bone)">STATUS — IN THE DATA, STILL ASKING BETTER QUESTIONS</text>
+  <text class="mono" x="82" y="92" font-size="16" letter-spacing="0.4" fill="var(--muted)">Somewhere between a flux balance and the next variant call</text>
+  <text class="mono" x="952" y="70" font-size="13" text-anchor="end" fill="var(--muted)">Istanbul, TR · © 2026</text>
+
+</svg>

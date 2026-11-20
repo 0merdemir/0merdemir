@@ -1,23 +1,79 @@
-<h1 align="center">Hi 👋, I'm Ömer</h1>
+<div align="center">
 
-- 🔭 I’m a **Bioengineering Undergraduate Student**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/header.svg"/>
+  <img src="assets/header.svg" width="100%" alt="Ömer Demir — Bioinformatics and systems biology, Istanbul, Türkiye."/>
+</picture>
 
-- 🌱 I’m currently learning **Bioinformatics and Machine Learning**
+<a href="mailto:90omerdemir@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square&logo=gmail&logoColor=ffffff"/><img src="https://img.shields.io/badge/EMAIL-ffffff?style=flat-square&logo=gmail&logoColor=000000" alt="Email"/></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/ISTANBUL-0d1117?style=flat-square"/><img src="https://img.shields.io/badge/ISTANBUL-ffffff?style=flat-square" alt="Istanbul"/></picture>
 
-- 👯 I’m looking to collaborate on **Bioinformatics Projects**
+</div>
 
-- 📫 How to reach me **biyoinformatikci@gmail.com**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s01.svg"/>
+  <img src="assets/s01.svg" width="100%" alt="01 — Who I am"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoami.svg"/>
+  <img src="assets/whoami.svg" width="100%" alt="M.Sc. student in Bioinformatics and Systems Biology at Gebze Technical University. Genome Analyst Trainee at Gen Era Diagnostics Inc. Focus: genome-scale metabolic modeling, pan-cancer multi-omics, and variant annotation."/>
+</picture>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/90omerdemir/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ömer demir" height="30" width="40" /></a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s02.svg"/>
+  <img src="assets/s02.svg" width="100%" alt="02 — Research"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/research.svg"/>
+  <img src="assets/research.svg" width="100%" alt="HIBIT 2026 presentation: Metabolic Network Analysis and Genome-Scale Metabolic Modeling in Multi-Omics Pan-Adenocarcinoma Data. TuPA 2025 poster. TÜBİTAK 2209-A project. TEKNOFEST 2024 finalist."/>
+</picture>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="http://www.r-studio.com" target="_blank" rel="noreferrer"> <img src="https://icon.icepanel.io/Technology/svg/RStudio.svg" alt="r-studio" width="40" height="40"/> </a> <a href="https://www.mathworks.com/products/matlab.html" target="_blank" rel="noreferrer"> <img src="https://icon.icepanel.io/Technology/svg/MATLAB.svg" alt="matlab" width="40" height="40"/> </a> <a href="https://cytoscape.org/" target="_blank" rel="noreferrer"> <img src="https://avatars1.githubusercontent.com/u/956141?v=3&s=200" alt="cytoscape" width="40" height="40"/> </a> <a href="https://www.pymol.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/schrodinger/pymol-open-source/blob/master/data/pymol/icons/icon2.svg" alt="PyMol" width="40" height="40"/> </a> <a href="https://www2.mrc-lmb.cam.ac.uk/personal/pemsley/coot/" target="_blank" rel="noreferrer"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQym0hMX2b4S3OgbuClZU0GSYRnh2d6sMiudg&s" alt="Coot" width="40" height="40"/> </a> <a href="https://opencobra.github.io/cobratoolbox/stable/index.html" target="_blank" rel="noreferrer"> <img src="https://opencobra.github.io/cobratoolbox/stable/_static/img/logo.png" alt="CobraToolbox" width="40" height="40"/> </a> <a href="https://www.illumina.com/products/by-type/informatics-products/microarray-software/genomestudio.html" target="_blank" rel="noreferrer"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfHhz3HRlAfAfk_jDaWqKM2KOAAiFosxvSFA&s" alt="GenomeStudio" width="40" height="40"/> </a> <a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img src="https://icon.icepanel.io/Technology/png-shadow-512/Jupyter.png" alt="Jupyter" width="40" height="40"/> </a> <a href="https://code.visualstudio.com" target="_blank" rel="noreferrer"> <img src="https://icon.icepanel.io/Technology/svg/Visual-Studio-Code-%28VS-Code%29.svg" alt="VSCode" width="40" height="40"/> </a> <a href="https://www.nextflow.io" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Nextflow-Powered-blue.svg?logo=nextflow&style=flat-square" alt="nextflow" width="40" height="40"/> </a><a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> </a>  </p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s03.svg"/>
+  <img src="assets/s03.svg" width="100%" alt="03 — The route"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/timeline.svg"/>
+  <img src="assets/timeline.svg" width="100%" alt="2022 B.Sc. Bioengineering. 2025 Gen Era Diagnostics Inc. M.Sc. in progress at Gebze Technical University."/>
+</picture>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=arkhammknight&show_icons=true&locale=en&layout=compact" alt="arkhammknight" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s04.svg"/>
+  <img src="assets/s04.svg" width="100%" alt="04 — Education"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/education.svg"/>
+  <img src="assets/education.svg" width="100%" alt="M.Sc. Bioinformatics and Systems Biology, Gebze Technical University, in progress. B.Sc. Bioengineering, Istanbul Medeniyet University, 2022. Thesis on multi-omics pan-adenocarcinoma metabolic modeling, advisor Assoc. Prof. Muhammed Erkan Karabekmez."/>
+</picture>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=arkhammknight&show_icons=true&locale=en" alt="arkhammknight" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s05.svg"/>
+  <img src="assets/s05.svg" width="100%" alt="05 — Experience"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/experience.svg"/>
+  <img src="assets/experience.svg" width="100%" alt="Genome Analyst Trainee at Gen Era Diagnostics Inc. since October 2025, plus internships at Acıbadem University, Koç University, Bioexpo, Istanbul University-Cerrahpaşa, and Istanbul Medeniyet University."/>
+</picture>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=arkhammknight&" alt="arkhammknight" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s06.svg"/>
+  <img src="assets/s06.svg" width="100%" alt="06 — Stack"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"/>
+  <img src="assets/stack.svg" width="100%" alt="Python, R, MATLAB, Nextflow, nf-core, Linux, Cytoscape, PyMOL, Chimera, Coot, Illumina DRAGEN, and GenomeStudio, plus laboratory methods from PCR to protein purification."/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/s07.svg"/>
+  <img src="assets/s07.svg" width="100%" alt="07 — Recognition"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/awards.svg"/>
+  <img src="assets/awards.svg" width="100%" alt="2026 bizz@kampüs GODIVA finalist, top 10 of more than 1,500 teams. 2024 TEKNOFEST finalist, 8th place, Best Presentation Award."/>
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg"/>
+  <img src="assets/footer.svg" width="100%" alt="Status: in the data, still asking better questions. Istanbul, 2026."/>
+</picture>

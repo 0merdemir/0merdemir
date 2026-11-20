@@ -1,0 +1,42 @@
+<svg viewBox="0 0 1000 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Awards and finalist results">
+  <style>
+    :root { --bone:#444444;--rule:#C0C0C0;--muted:#888888;--dim:#AAAAAA;--accent:#555555;--ghost:#CCCCCC; }
+    
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .rise { opacity: 0; animation: rise .75s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .fade { opacity: 0; animation: fade .7s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .a1{animation-delay:.12s} .a2{animation-delay:.24s} .a3{animation-delay:.36s} .a4{animation-delay:.48s}
+    .a5{animation-delay:.6s} .a6{animation-delay:.72s} .a7{animation-delay:.84s} .a8{animation-delay:.96s}
+    .a9{animation-delay:1.08s} .a10{animation-delay:1.2s}
+    .axis { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 2.2s cubic-bezier(.6,0,.2,1) forwards; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .ring { animation: ring 2.6s ease-out infinite; }
+    @keyframes ring { 0%{transform:scale(.4);opacity:.8} 80%,100%{transform:scale(2.8);opacity:0} }
+    @media (prefers-reduced-motion: reduce) {
+      .draw,.rise,.fade,.axis,.pulse,.ring { animation: none; }
+      .draw,.axis { stroke-dashoffset: 0; }
+      .rise,.fade { opacity: 1; }
+      .ring { opacity: 0; }
+    }
+
+  </style>
+  
+  <line x1="128" y1="8" x2="128" y2="196" stroke="var(--rule)" stroke-width="1" opacity=".45"/>
+  <g class="rise a1">
+    <text class="mono" x="48" y="40" font-size="12" fill="var(--accent)" letter-spacing="1.2">2026</text>
+    <text class="mono" x="152" y="40" font-size="15" fill="var(--bone)">bizz@kampüs — GODIVA Business Idea Competition</text>
+    <text class="mono" x="152" y="64" font-size="13.5" fill="var(--muted)">Finalist, top 10 of more than 1,500 teams · Cash prize</text>
+  </g>
+  <g class="rise a2">
+    <text class="mono" x="48" y="118" font-size="12" fill="var(--accent)" letter-spacing="1.2">2024</text>
+    <text class="mono" x="152" y="118" font-size="15" fill="var(--bone)">TEKNOFEST Biotechnology Innovation Competition</text>
+    <text class="mono" x="152" y="142" font-size="13.5" fill="var(--muted)">Rare Diseases Genetic Therapy · University and above</text>
+    <text class="mono" x="152" y="166" font-size="13.5" fill="var(--accent)">Finalist · 8th place · Best Presentation Award</text>
+  </g>
+
+</svg>

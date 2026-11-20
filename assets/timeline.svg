@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1200 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline: B.Sc. Bioengineering, Gen Era Diagnostics Inc., M.Sc. at GTU">
+  <style>
+    :root { --bone:#444444;--rule:#C0C0C0;--muted:#888888;--dim:#AAAAAA;--accent:#555555;--ghost:#CCCCCC; }
+    
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .draw { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .rise { opacity: 0; animation: rise .75s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .fade { opacity: 0; animation: fade .7s ease forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    .a1{animation-delay:.12s} .a2{animation-delay:.24s} .a3{animation-delay:.36s} .a4{animation-delay:.48s}
+    .a5{animation-delay:.6s} .a6{animation-delay:.72s} .a7{animation-delay:.84s} .a8{animation-delay:.96s}
+    .a9{animation-delay:1.08s} .a10{animation-delay:1.2s}
+    .axis { stroke: var(--rule); stroke-width: 1; stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: draw 2.2s cubic-bezier(.6,0,.2,1) forwards; }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
+    .ring { animation: ring 2.6s ease-out infinite; }
+    @keyframes ring { 0%{transform:scale(.4);opacity:.8} 80%,100%{transform:scale(2.8);opacity:0} }
+    @media (prefers-reduced-motion: reduce) {
+      .draw,.rise,.fade,.axis,.pulse,.ring { animation: none; }
+      .draw,.axis { stroke-dashoffset: 0; }
+      .rise,.fade { opacity: 1; }
+      .ring { opacity: 0; }
+    }
+
+  </style>
+  
+  <line x1="48" y1="40" x2="1152" y2="40" stroke="var(--rule)"/>
+  <text class="mono" fill="var(--muted)" x="48" y="28" font-size="11" letter-spacing="3.2">THE ROUTE SO FAR</text>
+  <text class="mono" fill="var(--muted)" x="1152" y="28" font-size="11" letter-spacing="2.4" text-anchor="end">~/ timeline</text>
+  <line class="axis" x1="48" y1="132" x2="1152" y2="132"/>
+
+  <g class="rise a1">
+    <circle cx="240" cy="132" r="4" fill="var(--bone)"/>
+    <line x1="240" y1="128" x2="240" y2="104" stroke="var(--rule)"/>
+    <text class="mono" fill="var(--accent)" x="240" y="78" font-size="11" letter-spacing="1.6" text-anchor="middle">2022</text>
+    <text class="mono" fill="var(--bone)" x="240" y="96" font-size="11" text-anchor="middle">B.Sc. Bioengineering</text>
+  </g>
+  <g class="rise a2">
+    <circle cx="600" cy="132" r="4" fill="var(--bone)"/>
+    <line x1="600" y1="136" x2="600" y2="160" stroke="var(--rule)"/>
+    <text class="mono" fill="var(--accent)" x="600" y="180" font-size="11" letter-spacing="1.6" text-anchor="middle">2025</text>
+    <text class="mono" fill="var(--bone)" x="600" y="198" font-size="11" text-anchor="middle">Gen Era Diagnostics Inc.</text>
+  </g>
+  <g class="rise a3">
+    <circle class="ring" cx="960" cy="132" r="5" stroke="var(--accent)" fill="none" style="transform-origin: 960px 132px"/>
+    <circle class="pulse" cx="960" cy="132" r="4.5" fill="var(--accent)"/>
+    <line x1="960" y1="128" x2="960" y2="104" stroke="var(--rule)"/>
+    <text class="mono" fill="var(--accent)" x="960" y="78" font-size="11" letter-spacing="1.6" text-anchor="middle">NOW</text>
+    <text class="mono" fill="var(--bone)" x="960" y="96" font-size="11" text-anchor="middle">M.Sc. · GTU</text>
+  </g>
+
+</svg>
