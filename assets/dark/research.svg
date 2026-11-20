@@ -31,7 +31,7 @@
 <text class="mono" x="48" y="86" font-size="15" fill="var(--bone)">in Multi-Omics Pan-Adenocarcinoma Data</text>
 <text class="mono" x="48" y="108" font-size="13.5" fill="var(--muted)">Demir Ö. · Tut B. · Kurtağzı A. · Karabekmez M. E.</text>
 <text class="mono" x="48" y="130" font-size="13.5" fill="var(--muted)">19th International Symposium on Health Informatics and Bioinformatics</text>
-<text class="mono" x="48" y="152" font-size="11.5" letter-spacing="0.8" fill="var(--accent)">CONFERENCE PRESENTATION  ·  ACIBADEM UNIVERSITY, ISTANBUL  ·  13–15 NOVEMBER 2026</text>
+<text class="mono" x="48" y="152" font-size="11.5" letter-spacing="0.8" fill="var(--accent)">POSTER  ·  ACIBADEM UNIVERSITY, ISTANBUL  ·  13–15 NOVEMBER 2026</text>
 <text class="mono" x="48" y="174" font-size="11.5" letter-spacing="0.8" fill="var(--accent)">NOT YET PUBLISHED</text>
 <line x1="48" y1="192" x2="952" y2="192" stroke="var(--rule)" stroke-width="1" opacity=".7"/>
 </g>

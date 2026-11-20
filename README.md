@@ -25,7 +25,7 @@
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dark/research.svg"/>
-  <img src="assets/research.svg" width="100%" alt="HIBIT 2026 presentation: Metabolic Network Analysis and Genome-Scale Metabolic Modeling in Multi-Omics Pan-Adenocarcinoma Data. TuPA 2025 poster. TÜBİTAK 2209-A project. TEKNOFEST 2024 finalist."/>
+  <img src="assets/research.svg" width="100%" alt="HIBIT 2026 poster: Metabolic Network Analysis and Genome-Scale Metabolic Modeling in Multi-Omics Pan-Adenocarcinoma Data. TuPA 2025 poster. TÜBİTAK 2209-A project. TEKNOFEST 2024 finalist."/>
 </picture>
 
 <picture>
